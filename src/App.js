@@ -27,9 +27,9 @@ function App() {
     <div className="App container-fluid">
         <h1 className='head'>Registration form</h1>
         <Routes>
-            <Route path="/" element={<Page1 info={info}/>}/>
-            <Route path="/page2" element={<Page2 info1={info1}/>}/>
-            <Route path="/page3" element={<Page3 arr={arr}/>}/>
+            <Route path="Project-1/" element={<Page1 info={info}/>}/>
+            <Route path="Project-1/page2" element={<Page2 info1={info1}/>}/>
+            <Route path="Project-1/page3" element={<Page3 arr={arr}/>}/>
         </Routes>
       </div>
     </BrowserRouter>
