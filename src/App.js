@@ -30,6 +30,8 @@ function App() {
             <Route path="Project-1/" element={<Page1 info={info}/>}/>
             <Route path="/page2" element={<Page2 info1={info1}/>}/>
             <Route path="/page3" element={<Page3 arr={arr}/>}/>
+            <Route path="/page2/Project-1/" element={<Page1 info={info}/>}/>
+            <Route path="/page3/Project-1/" element={<Page1 info={info}/>}/>
         </Routes>
       </div>
     </BrowserRouter>
