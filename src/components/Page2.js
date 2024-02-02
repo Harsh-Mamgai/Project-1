@@ -22,7 +22,7 @@ export const Page2 = (props) => {
         <div class="form-floating">
             <textarea style={{resize:'none'}}class="form-control" placeholder="Leave a comment here" id="floatingTextarea" ref={about}></textarea>
         </div>
-        <NavLink to="/"><button type="submit" class="btn btn-success">Back</button></NavLink>
+        <NavLink to="Project-1/"><button type="submit" class="btn btn-success">Back</button></NavLink>
         <NavLink to="/page3">
           <button type="submit" class="btn btn-success" onClick={()=> props.info1(phone.current.value, address.current.value, about.current.value)}>Submit</button> 
         </NavLink>

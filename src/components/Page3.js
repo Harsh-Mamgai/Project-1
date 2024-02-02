@@ -43,7 +43,7 @@ export const Page3 = (props) => {
       </table>
       </div> : <h1>Your form was not submitted please fill all the fields in page1 they are mandatory</h1>
       }
-      <NavLink to="/">
+      <NavLink to="Project-1/">
         <button type="submit" class="btn btn-success mt-1 mb-2">Back to Home</button>
       </NavLink>
     </div>
